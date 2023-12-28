@@ -4,7 +4,8 @@ for brand in cars:
 print('Выход из цикла')
 
 cars_count = 0
-for cars_count in range(10):
+for i in range(10):
+    cars_count += 10
     print(cars_count)
 
 
