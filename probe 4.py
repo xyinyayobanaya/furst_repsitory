@@ -1,5 +1,9 @@
-def print_params() :
-    print('Привет! Я функция')
+def func_with_params(param):
+    print('Функция вызвана с параметром', param)
 
-for _ in range(10):
-    print_params()
+my_list = [3, 15, 17, 86, 7]
+
+for element in my_list:
+    print('Начало цикла')
+    func_with_params(param=element)
+    print('Конец цикла')
